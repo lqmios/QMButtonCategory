@@ -13,6 +13,7 @@
 		31DFD8001FB14609001E0712 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31DFD7FF1FB14609001E0712 /* Assets.xcassets */; };
 		31DFD8031FB14609001E0712 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31DFD8011FB14609001E0712 /* LaunchScreen.storyboard */; };
 		31DFD8061FB14609001E0712 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DFD8051FB14609001E0712 /* main.m */; };
+		31DFD80F1FB1467E001E0712 /* UIControl+QMButtonClickDelay.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DFD80E1FB1467E001E0712 /* UIControl+QMButtonClickDelay.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		31DFD8021FB14609001E0712 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31DFD8041FB14609001E0712 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31DFD8051FB14609001E0712 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31DFD80D1FB1467E001E0712 /* UIControl+QMButtonClickDelay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIControl+QMButtonClickDelay.h"; sourceTree = "<group>"; };
+		31DFD80E1FB1467E001E0712 /* UIControl+QMButtonClickDelay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIControl+QMButtonClickDelay.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		31DFD7F51FB14609001E0712 /* QMButtonCategory */ = {
 			isa = PBXGroup;
 			children = (
+				31DFD80C1FB14641001E0712 /* QMBtnClikDelayCategory */,
 				31DFD7F61FB14609001E0712 /* AppDelegate.h */,
 				31DFD7F71FB14609001E0712 /* AppDelegate.m */,
 				31DFD7F91FB14609001E0712 /* ViewController.h */,
@@ -69,6 +73,15 @@
 				31DFD8051FB14609001E0712 /* main.m */,
 			);
 			path = QMButtonCategory;
+			sourceTree = "<group>";
+		};
+		31DFD80C1FB14641001E0712 /* QMBtnClikDelayCategory */ = {
+			isa = PBXGroup;
+			children = (
+				31DFD80D1FB1467E001E0712 /* UIControl+QMButtonClickDelay.h */,
+				31DFD80E1FB1467E001E0712 /* UIControl+QMButtonClickDelay.m */,
+			);
+			path = QMBtnClikDelayCategory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +157,7 @@
 			files = (
 				31DFD7FB1FB14609001E0712 /* ViewController.m in Sources */,
 				31DFD8061FB14609001E0712 /* main.m in Sources */,
+				31DFD80F1FB1467E001E0712 /* UIControl+QMButtonClickDelay.m in Sources */,
 				31DFD7F81FB14609001E0712 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
